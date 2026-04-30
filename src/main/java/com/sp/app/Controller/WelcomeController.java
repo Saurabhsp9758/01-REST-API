@@ -74,7 +74,7 @@ public class WelcomeController {
 	@GetMapping(value = "/login")
 	public String checkLogin(@RequestParam String userName, @RequestParam String password)
 	{
-	   System.out.println("User Name :" + userName);
+	   System.out.println("UserName :" + userName);
 	   System.out.println("Password :" + password);
 	   return "Login Successfully";
 	}
